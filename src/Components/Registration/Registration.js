@@ -28,30 +28,30 @@ export default function Registration(){
                     <span class="text-sm">General Information</span>
                 </Link>
 
-                <a href="register4.html" class="flex items-center px-3 py-2 mb-1 rounded-md text-gray-600">
+                <Link to="/proof" class="flex items-center px-3 py-2 mb-1 rounded-md text-gray-600">
                     <span class="bg-gray-100 w-5 h-5 rounded-full flex items-center justify-center text-xs mr-2">4</span>
                     <span class="text-sm">Proof</span>
-                </a>
+                </Link>
 
-                <a href="register5.html" class="flex items-center px-3 py-2 mb-1 rounded-md text-gray-600">
+                <Link to="/education" class="flex items-center px-3 py-2 mb-1 rounded-md text-gray-600">
                     <span class="bg-gray-100 w-5 h-5 rounded-full flex items-center justify-center text-xs mr-2">5</span>
                     <span class="text-sm">Education</span>
-                </a>
+                </Link>
 
-                <a href="register6.html" class="flex items-center px-3 py-2 mb-1 rounded-md text-gray-600">
+                <Link to="/contact" class="flex items-center px-3 py-2 mb-1 rounded-md text-gray-600">
                     <span class="bg-gray-100 w-5 h-5 rounded-full flex items-center justify-center text-xs mr-2">6</span>
                     <span class="text-sm">Contact</span>
-                </a>
+                </Link>
 
-                <a href="register7.html" class="flex items-center px-3 py-2 mb-1 rounded-md text-gray-600">
+                <Link to="/property" class="flex items-center px-3 py-2 mb-1 rounded-md text-gray-600">
                     <span class="bg-gray-100 w-5 h-5 rounded-full flex items-center justify-center text-xs mr-2">7</span>
                     <span class="text-sm">Property</span>
-                </a>
+                </Link>
 
-                <a href="register8.html" class="flex items-center px-3 py-2 mb-1 rounded-md text-gray-600">
+                <Link to="/final-step" class="flex items-center px-3 py-2 mb-1 rounded-md text-gray-600">
                     <span class="bg-gray-100 w-5 h-5 rounded-full flex items-center justify-center text-xs mr-2">8</span>
                     <span class="text-sm">Final Step</span>
-                </a>
+                </Link>
             </nav>
         </div>
 

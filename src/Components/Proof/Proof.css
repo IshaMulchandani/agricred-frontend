@@ -10,3 +10,12 @@
             border-radius: 12px;
             box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
         }
+
+        .upload-area {
+            border: 2px dashed #e5e7eb;
+            transition: all 0.3s ease;
+        }
+
+        .upload-area:hover {
+            border-color: #16a34a;
+        }
