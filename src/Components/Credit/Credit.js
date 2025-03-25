@@ -117,7 +117,7 @@ export default function Credit() {
             <nav className="space-x-6">
               <Link to="/investment-opportunities" className="hover:text-green-200">Dashboard</Link>
               <a href="investments.html" className="hover:text-green-200">Investments</a>
-              <a href="profile.html" className="hover:text-green-200">Profile</a>
+              <Link to="/my-profile" className="hover:text-green-200">Profile</Link>
               <a href="support.html" className="hover:text-green-200">Support</a>
             </nav>
           </div>
