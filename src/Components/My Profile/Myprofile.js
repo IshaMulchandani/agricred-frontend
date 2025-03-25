@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Chart } from 'chart.js/auto';
 import './Myprofile.css'
+import { Link } from 'react-router-dom';
 
 const Myprofile = () => {
   const [activeTab, setActiveTab] = useState('ongoing');
@@ -109,10 +110,10 @@ const Myprofile = () => {
           </div>
           <div className="flex items-center space-x-6">
             <nav className="space-x-4">
-              <a href="#" className="hover:underline">FAQ</a>
-              <a href="#" className="hover:underline">Products</a>
-              <a href="#" className="hover:underline">About Us</a>
-              <a href="#" className="hover:underline">How It Works</a>
+              <Link to="/my-profile" className="hover:underline">FAQ</Link>
+              <Link to="/my-profile" className="hover:underline">Products</Link>
+              <Link to="/my-profile" className="hover:underline">About Us</Link>
+              <Link to="/my-profile" className="hover:underline">How It Works</Link>
             </nav>
           </div>
         </div>

@@ -15,24 +15,24 @@ export default function Report() {
                         <div className="mb-4">
                             <h3 className="px-6 text-sm font-semibold text-gray-500 uppercase tracking-wider">CLIENTS</h3>
                             <div className="mt-2">
-                                <a href="#" className="sidebar-item block text-gray-700">Notifications</a>
-                                <a href="#" className="sidebar-item block text-gray-700">Applications</a>
-                                <a href="#" className="sidebar-item block text-gray-700 ml-4">Current</a>
-                                <a href="#" className="sidebar-item block text-gray-700 ml-4">All</a>
-                                <a href="#" className="sidebar-item block text-gray-700 ml-4">Approved</a>
-                                <a href="#" className="sidebar-item block text-gray-700 ml-4">Declined</a>
-                                <a href="#" className="sidebar-item block text-gray-700 ml-4">Under verification</a>
-                                <a href="#" className="sidebar-item block text-gray-700">Farmers</a>
-                                <a href="#" className="sidebar-item block text-gray-700">Loans</a>
-                                <a href="#" className="sidebar-item block text-gray-700">Statistics</a>
-                                <a href="#" className="sidebar-item block text-gray-700">Scoring</a>
+                                <Link to="/report" className="sidebar-item block text-gray-700">Notifications</Link>
+                                <Link to="/report" className="sidebar-item block text-gray-700">Applications</Link>
+                                <Link to="/report" className="sidebar-item block text-gray-700 ml-4">Current</Link>
+                                <Link to="/report" className="sidebar-item block text-gray-700 ml-4">All</Link>
+                                <Link to="/report" className="sidebar-item block text-gray-700 ml-4">Approved</Link>
+                                <Link to="/report" className="sidebar-item block text-gray-700 ml-4">Declined</Link>
+                                <Link to="/report" className="sidebar-item block text-gray-700 ml-4">Under verification</Link>
+                                <Link to="/report" className="sidebar-item block text-gray-700">Farmers</Link>
+                                <Link to="/report" className="sidebar-item block text-gray-700">Loans</Link>
+                                <Link to="/report" className="sidebar-item block text-gray-700">Statistics</Link>
+                                <Link to="/report" className="sidebar-item block text-gray-700">Scoring</Link>
                             </div>
                         </div>
                         <div className="mb-4">
                             <h3 className="px-6 text-sm font-semibold text-gray-500 uppercase tracking-wider">PARTNERS</h3>
                             <div className="mt-2">
-                                <a href="#" className="sidebar-item block text-gray-700">Farm machinery rental and sale</a>
-                                <a href="#" className="sidebar-item block text-gray-700">Fertilizers</a>
+                                <Link to="/report" className="sidebar-item block text-gray-700">Farm machinery rental and sale</Link>
+                                <Link to="/report" className="sidebar-item block text-gray-700">Fertilizers</Link>
                             </div>
                         </div>
                         <div className="mt-auto">

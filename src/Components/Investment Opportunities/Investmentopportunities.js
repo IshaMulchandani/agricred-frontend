@@ -108,7 +108,7 @@ const Investmentopportunities = () => {
                                 <Link to="/credit">Creditworthiness & Risk</Link>
                             </li>
                             <li className="text-gray-600 hover:text-green-600 cursor-pointer">
-                                <Link to="#">Market Insights</Link>
+                                <Link>Market Insights</Link>
                             </li>
                             <li className="text-gray-600 hover:text-green-600 cursor-pointer">
                                 <Link to="/my-profile">My Portfolio</Link>
