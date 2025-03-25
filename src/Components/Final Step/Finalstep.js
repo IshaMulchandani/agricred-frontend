@@ -172,8 +172,8 @@ export default function Finalstep(){
                 <button type="button" class="px-6 py-2 bg-gray-100 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-200">
                    <Link to="/property"> Back </Link>
                 </button>
-                <button type="submit" class="px-6 py-2 bg-green-600 text-white rounded-lg text-sm font-medium hover:bg-green-700">
-                   <Link to="/final-step"> Submit Application </Link>
+                <button type="button" class="px-6 py-2 bg-green-600 text-white rounded-lg text-sm font-medium hover:bg-green-700">
+                   <Link to="/investment-opportunities"> Submit Application </Link>
                 </button>
             </div>
         </div>

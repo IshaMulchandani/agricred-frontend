@@ -8,6 +8,11 @@ import Education from './Components/Education/Education';
 import Contact from './Components/Contact/Contact';
 import Property from './Components/Property/Property';
 import Finalstep from './Components/Final Step/Finalstep';
+import Investmentopportunities from './Components/Investment Opportunities/Investmentopportunities';
+import Credit from './Components/Credit/Credit';
+import Mill from './Components/Mill Information/Mill';
+import Myprofile from './Components/My Profile/Myprofile';
+import Report from './Components/Report/Report';
 
 function App() {
   return (
@@ -21,6 +26,11 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/property' element={<Property/>} />
         <Route path='/final-step' element={<Finalstep/>} />
+        <Route path='/investment-opportunities' element={<Investmentopportunities/>}/>
+        <Route path='/credit' element={<Credit/>} />
+        <Route path='/mill' element={<Mill/>} />
+        <Route path='/my-profile' element={<Myprofile/>} />
+        <Route path='/report' element={<Report/>} />
       </Routes>
     </Router>
   );
