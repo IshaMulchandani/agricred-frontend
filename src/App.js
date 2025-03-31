@@ -13,12 +13,14 @@ import Credit from './Components/Credit/Credit';
 import Mill from './Components/Mill Information/Mill';
 import Myprofile from './Components/My Profile/Myprofile';
 import Report from './Components/Report/Report';
+import Landingpage from './Components/Landing Page/Landingpage';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Registration/>}/>
+        <Route path='/' element={<Landingpage/>} />
+        <Route path='/register' element={<Registration/>}/>
         <Route path='/farm-details' element={<Farmdetials/>}/>
         <Route path='/general-information' element={<Generalinformation/>}/>
         <Route path='/proof' element={<Proof/>}/>
